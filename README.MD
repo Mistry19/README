@@ -29,6 +29,20 @@ To install frontend dependancies this code , run this command
 cd client
 npm install
 ```
+
+## Set up database
+run
+```
+flask db init
+flask db migrate -m "Message"
+flask db upgrade
+```
+
+Seed your database
+```
+python3 seed.py
+```
+
 ## How to run app
 to start the server run the following in the server directory
 ```
