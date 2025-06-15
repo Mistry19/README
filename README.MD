@@ -16,21 +16,25 @@ before installing dependancies activate virtual environment. run this command
 cd server
 python3 -m venv venv
 source venv/bin/activate
+
+```
+
 To install backend dependancies run this code
+```
+pip install -r requirement.txt
+```
 
- ```
-    pip install -r requirement.txt
-
-    To install frontend dependancies this code , run this command
-
-    ```
-    cd client
-    npm install
-
-    ## How to run app
-    to start the server run the following in the server directory
-    ```
-    python3 app.py
-
-    to start the client run
-    `` npm start
+To install frontend dependancies this code , run this command
+```
+cd client
+npm install
+```
+## How to run app
+to start the server run the following in the server directory
+```
+python3 app.py
+```
+to start the client run
+```
+npm start
+```
